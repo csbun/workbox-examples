@@ -5,36 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Workbox Cross Origin</title>
-  <style>
-    img {
-      max-width: 100%;
-    }
-    code {
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      background: #eee;
-      padding: 0 5px;
-    }
-  </style>
 </head>
 <body>
   <h1>Workbox Cross Origin</h1>
   <div>
-    <p>不同域的文件</p>
-    <p><img src="https://developers.google.com/web/tools/workbox/thumb.png" alt="不同域的文件"></p>
-  
-    <p>不同域的文件 且 <code>access-control-allow-origin: *</code></p>
-    <img src="https://unpkg.com/resize-image@0.0.4/example/google.png" alt="不同域的文件 且 allow cross origin">
+    <p><a href="./network-first.html">Network First</a></p>
+    <p><a href="./stale-while-revalidate.html">Stale While Revalidate</a></p>
+    <p><a href="./cache-first.html">Cache First</a></p>
   </div>
-  <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
 </body>
-<script>
-// Register A service worker
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    const prefix = location.pathname.replace(/\/(index\.html)?$/, '');
-    navigator.serviceWorker.register(`${prefix}/sw.js`);
-  });
-}
-</script>
 </html>

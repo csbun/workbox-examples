@@ -13,23 +13,6 @@ workbox.routing.registerRoute(
   }),
 );
 
-// // [OK] Stale While Revalidate
-// workbox.routing.registerRoute(
-//   REGEXP_ALL,
-//   workbox.strategies.staleWhileRevalidate({
-//     cacheName: `${CACHE_NAME}:stale-while-revalidate`,
-//   }),
-// );
-
-// // [Fail] Cache First EXCEPT .html
-// workbox.routing.registerRoute(
-//   REGEXP_ALL,
-//   workbox.strategies.cacheFirst({
-//     cacheName: `${CACHE_NAME}:cache-first`,
-//   }),
-// );
-
-
 self.addEventListener('install', function() {
   // For Develop Only
   self.skipWaiting();
