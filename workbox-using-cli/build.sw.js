@@ -1,8 +1,6 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.0/workbox-sw.js');
-
-self.addEventListener('install', function() {
-  console.log('Workbox precache');
-  workboxSW.precache([
+// Workbox injectManifest
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.1/workbox-sw.js");
+workbox.precaching.precacheAndRoute([
   {
     "url": "css/style.css",
     "revision": "835ba5c376a3f48dba17d3a9dc152fc3"
@@ -21,11 +19,14 @@ self.addEventListener('install', function() {
   },
   {
     "url": "index.html",
-    "revision": "6fa9b60c566684314de968157c219f67"
+    "revision": "b331f695c19368c7c93d25512bc62624"
   },
   {
     "url": "js/index.js",
-    "revision": "484e6a413298e7dd5c446a2a9173b0b0"
+    "revision": "3aaf5bd8807a8752940ab916147717f9"
   }
 ]);
-});
+// Workbox injectManifest End
+
+// 其他自定义 sw 内容
+// ...

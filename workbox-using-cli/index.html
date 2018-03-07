@@ -10,21 +10,25 @@
 <body>
   <h1>Workbox using cli</h1>
   <div>
+    <h2>Generate config file</h2>
     <pre>
-npx workbox generate:sw
+npx workbox wizard [--injectManifest]
+    </pre>
+  </div>
+  <div>
+    <h2>Generate ServiceWorker</h2>
+    <pre>
+npx workbox generateSW
     </pre>
     <p>Or</p>
     <pre>
-npx workbox inject:manifest
+npx workbox injectManifest
     </pre>
   </div>
   <p>
     <img src="./images/icon-48.png" alt="icon-48">
     <img src="./images/icon-96.png" alt="icon-96">
     <img src="./images/icon-192.png" alt="icon-192">
-  </p>
-  <p>
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google">
   </p>
   <script src="./js/index.js"></script>
 </body>
