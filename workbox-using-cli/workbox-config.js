@@ -1,7 +1,7 @@
 module.exports = {
   "globDirectory": "./",        // 匹配根目录
   "globPatterns": [             // 匹配的文件
-    "**/*.{css,png,html,js}"
+    "**/*.{js,css,png,html}"
   ],
   "globIgnores": [              // 忽略的文件
     "build/**",

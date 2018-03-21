@@ -1,5 +1,5 @@
 // Workbox injectManifest
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js");
 workbox.precaching.precacheAndRoute([
   {
     "url": "css/style.css",
@@ -23,7 +23,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "js/index.js",
-    "revision": "3aaf5bd8807a8752940ab916147717f9"
+    "revision": "4d5628662259e69e6a81f0d5fdde2d88"
   }
 ]);
 // Workbox injectManifest End

@@ -1092,17 +1092,17 @@ wordwrap@~0.0.2:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
 
-workbox-background-sync@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-3.0.0-beta.1.tgz#4e6c06b4b0ad0702996bbe44b4510c5caa4970e9"
+workbox-background-sync@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-3.0.0.tgz#25fcaf8b7f096a0d7f677001d8c7224271345519"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
-workbox-broadcast-cache-update@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-broadcast-cache-update/-/workbox-broadcast-cache-update-3.0.0-beta.1.tgz#3d8829f438a2f743335b32757e80ae28e522fbf3"
+workbox-broadcast-cache-update@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-broadcast-cache-update/-/workbox-broadcast-cache-update-3.0.0.tgz#7700d701bcebc59acc650b42ec131bdb53406db7"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
 workbox-build@^2.1.2:
   version "2.1.2"
@@ -1115,9 +1115,9 @@ workbox-build@^2.1.2:
     mkdirp "^0.5.1"
     workbox-sw "^2.1.2"
 
-workbox-build@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-build/-/workbox-build-3.0.0-beta.1.tgz#e7c3a0bf0d10792faf9d54b02e072daa059c1140"
+workbox-build@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-build/-/workbox-build-3.0.0.tgz#1913c03ff86b1ff2b59d7e7fc29246148b0dab2c"
   dependencies:
     babel-runtime "^6.26.0"
     common-tags "^1.4.0"
@@ -1126,32 +1126,32 @@ workbox-build@^3.0.0-beta.1:
     joi "^11.1.1"
     lodash.template "^4.4.0"
     pretty-bytes "^4.0.2"
-    workbox-background-sync "^3.0.0-beta.1"
-    workbox-broadcast-cache-update "^3.0.0-beta.1"
-    workbox-cache-expiration "^3.0.0-beta.1"
-    workbox-cacheable-response "^3.0.0-beta.1"
-    workbox-core "^3.0.0-beta.1"
-    workbox-google-analytics "^3.0.0-beta.1"
-    workbox-precaching "^3.0.0-beta.1"
-    workbox-routing "^3.0.0-beta.1"
-    workbox-strategies "^3.0.0-beta.1"
-    workbox-sw "^3.0.0-beta.1"
+    workbox-background-sync "^3.0.0"
+    workbox-broadcast-cache-update "^3.0.0"
+    workbox-cache-expiration "^3.0.0"
+    workbox-cacheable-response "^3.0.0"
+    workbox-core "^3.0.0"
+    workbox-google-analytics "^3.0.0"
+    workbox-precaching "^3.0.0"
+    workbox-routing "^3.0.0"
+    workbox-strategies "^3.0.0"
+    workbox-sw "^3.0.0"
 
-workbox-cache-expiration@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-cache-expiration/-/workbox-cache-expiration-3.0.0-beta.1.tgz#736b9b841e579b348f8983d41cf83eb45660a8a2"
+workbox-cache-expiration@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-cache-expiration/-/workbox-cache-expiration-3.0.0.tgz#c47e8f1a39c8346a832691880fa149a7323a380e"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
-workbox-cacheable-response@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-3.0.0-beta.1.tgz#2f6664c6798250b9b272fb593dfd7abb7414373a"
+workbox-cacheable-response@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-cacheable-response/-/workbox-cacheable-response-3.0.0.tgz#2bf09af3af708667786614ead1736c4137a46eac"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
-workbox-cli@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-cli/-/workbox-cli-3.0.0-beta.1.tgz#e998fc55289f43ee50f3ff0b49adc2c6eb1d2253"
+workbox-cli@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-cli/-/workbox-cli-3.0.0.tgz#15ac57b3c6add38d856f0fa2622cef8a538ad729"
   dependencies:
     chalk "^2.1.0"
     common-tags "^1.4.0"
@@ -1162,46 +1162,46 @@ workbox-cli@^3.0.0-beta.1:
     ora "^1.3.0"
     pretty-bytes "^4.0.2"
     update-notifier "^2.3.0"
-    workbox-build "^3.0.0-beta.1"
+    workbox-build "^3.0.0"
 
-workbox-core@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-3.0.0-beta.1.tgz#16a50b4ff0296e084d00bbfa92638ac1ab23fe70"
+workbox-core@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-3.0.0.tgz#39ff1c249ec2b1b39f6df0a1f6042d0f660ef8dc"
 
-workbox-google-analytics@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-3.0.0-beta.1.tgz#66a793248db2fe1a912790f8e55e8921cd4839f7"
+workbox-google-analytics@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-3.0.0.tgz#9ce8f21cebb5a268121ec67607c75ecb20fc0b74"
   dependencies:
-    workbox-background-sync "^3.0.0-beta.1"
-    workbox-core "^3.0.0-beta.1"
-    workbox-routing "^3.0.0-beta.1"
-    workbox-strategies "^3.0.0-beta.1"
+    workbox-background-sync "^3.0.0"
+    workbox-core "^3.0.0"
+    workbox-routing "^3.0.0"
+    workbox-strategies "^3.0.0"
 
-workbox-precaching@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-3.0.0-beta.1.tgz#d1babe6e82548e2dc481a70da8af3f9b88ae5abc"
+workbox-precaching@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-precaching/-/workbox-precaching-3.0.0.tgz#3ac6b54de5476eccf7f6f6b7153d23ee2b143a75"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
-workbox-routing@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-3.0.0-beta.1.tgz#50232fa9b4b03eb17d9fbae89e319f79132fec2c"
+workbox-routing@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-3.0.0.tgz#0554b38eba0acbb358a067eb7b5ed9afa5048586"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
-workbox-strategies@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-3.0.0-beta.1.tgz#81c249c2a88e08c96d972040cacfadf836173c32"
+workbox-strategies@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-strategies/-/workbox-strategies-3.0.0.tgz#aa9a770a793c45ceb4c3e3e5c17eb01493d6d5af"
   dependencies:
-    workbox-core "^3.0.0-beta.1"
+    workbox-core "^3.0.0"
 
 workbox-sw@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/workbox-sw/-/workbox-sw-2.1.2.tgz#8f3a687c36f3b92ac2a66a08183bd3a163474b61"
 
-workbox-sw@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/workbox-sw/-/workbox-sw-3.0.0-beta.1.tgz#4143750add95096db873af5a628b32ba3033da43"
+workbox-sw@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/workbox-sw/-/workbox-sw-3.0.0.tgz#3380c95007dfd1e18e4ff11a31ac64d124c8e1f7"
 
 workbox-webpack-plugin@^2.1.2:
   version "2.1.2"

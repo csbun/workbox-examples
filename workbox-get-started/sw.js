@@ -1,10 +1,10 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
 
 // 主文档: 网络优先
-// https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-sw.Router#registerRoute
+// https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.routing#registerRoute
 workbox.routing.registerRoute(
   /index\.html/,
-  // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-sw.Strategies
+  // https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.strategies
   workbox.strategies.networkFirst({
     cacheName: 'workbox:html',
   })
