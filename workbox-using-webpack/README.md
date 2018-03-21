@@ -2,7 +2,7 @@
 
 ### Demo
 
-[Demo](https://csbun.github.io/workbox-examples/workbox-using-webpack/index.html)
+[Demo](https://csbun.github.io/workbox-examples/workbox-using-webpack/dist/index.html)
 
 ### Development
 
